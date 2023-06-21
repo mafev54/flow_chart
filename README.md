@@ -2,7 +2,7 @@
 
 Hola, en este repositorio encontraras diferentes ejercicios solucionados desde mi punto de vista, tambien algunas herramientas basicas acerca del mundo de la programación, tales como los son los condicionales, bucles, funciones, etc.
 
-## Bucles en python:
+### Bucles en python:
 
 En Python, los bucles for y while son estructuras de control que permiten repetir un bloque de código varias veces.
 
@@ -22,7 +22,7 @@ Donde condición es una expresión booleana que se evalúa en cada iteración. M
 
 En resumen, los bucles for se utilizan cuando se conoce la cantidad exacta de iteraciones, mientras que los bucles while se utilizan cuando la cantidad de iteraciones depende de una condición.
 
-## Condicionales en python:
+### Condicionales en python:
 
 En Python, los condicionales se utilizan para ejecutar diferentes bloques de código según una o varias condiciones se cumplan o no. Los condicionales más comunes son las estructuras if, elif y else. La sintaxis básica de un condicional en Python es la siguiente:
 
@@ -43,13 +43,13 @@ Puedes tener tantos bloques elif como necesites en un condicional.
 Es importante tener en cuenta la indentación en Python, ya que define la estructura del código. Todos los bloques de código dentro de un condicional deben estar indentados de la misma manera (generalmente con cuatro espacios o una tabulación).
 Aquí hay un ejemplo de un condicional en Python:
 
-<edad = 25>
+edad = 25
 
-<if edad < 18:
+if edad < 18:
     print("Eres menor de edad")
-<elif edad> >< = 18 and edad < 65:
-    print("Eres adulto")>
-<else:
-    print("Eres mayor de edad")>
+elif edad >= 18 and edad < 65:
+    print("Eres adulto")
+else:
+    print("Eres mayor de edad")
 
 En este ejemplo, el código evalúa la variable edad y muestra un mensaje dependiendo de su valor. Si la edad es menor que 18, se imprime "Eres menor de edad". Si la edad está entre 18 (inclusive) y 65 (no inclusive), se imprime "Eres adulto". Si ninguna de las condiciones anteriores es verdadera, se imprime "Eres mayor de edad".
